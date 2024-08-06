@@ -1,4 +1,4 @@
-
-body {
-    background-color: lightblue;
+/* Reset common elements */
+body, h1, p, a, div, span {
+    all: unset;
 }
