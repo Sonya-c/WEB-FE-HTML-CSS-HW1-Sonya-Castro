@@ -1,3 +1,19 @@
+
+
+blockquote q {
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+blockquote cite::before {
+    content: '~ ';
+}
+
 /* Collumns */
 .cols-2 {
     width: 100%;
@@ -7,12 +23,38 @@
 .cols-2 > * {
     display: inline-block;
     max-width: 50%;
+    height: 100%;
 }
 
 .cols-2 > .cols-span-2 {
-    width: 80%;
+    max-width: 75%;
+    width: 75%;
 }
 
 .cols-2 > .cols-span-1 {
     width: 20%;
+    max-width: 20%;
+}
+
+/* Text aligment */
+.text-center {
+    text-align: center;
+}
+
+/* Containers */
+
+.container-xl {
+    max-width: 1200px;
+}
+
+.container-lg {
+    max-width: 1024px;
+}
+
+.container-md {
+    max-width: 768px;
+}
+
+.container-sm {
+    max-width: 640px;
 }
