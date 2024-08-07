@@ -3,6 +3,8 @@
 header {
     background-color: var(--gray-900);
     background: url(../assets/imgs/header-background.jpg) no-repeat !important;
+    background-color: var(--gray-900);
+    background: url(../assets/imgs/header-background.jpg) no-repeat !important;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -15,6 +17,8 @@ header {
     /* To force background img when printing */
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+
+    margin: 1rem;
 }
 
 header > div {

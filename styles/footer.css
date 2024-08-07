@@ -1,0 +1,12 @@
+@import url('./constants.css');
+
+footer {
+    background-color: var(--gray-300);
+    padding: 10px;
+}
+
+footer .social .icon {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}

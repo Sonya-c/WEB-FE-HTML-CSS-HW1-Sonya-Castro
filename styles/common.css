@@ -1,11 +1,18 @@
 @import url('/styles/constants.css');
 
+* {
+    box-sizing: border-box;
+}
 
 /* Body */
 body {
     background-color: var(--gray-100);
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--gray-900);
 }
 
 body > * {
@@ -52,6 +59,17 @@ blockquote cite::before {
     height: 1em;
     display: inline-block;
 }
+/* Icon */ 
+
+.icon {
+    vertical-align: middle;
+}
+
+.icon img {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
 /* Collumns */
 .cols-2 {
     width: 100%;
@@ -80,6 +98,15 @@ blockquote cite::before {
 }
 
 /* Containers */
+
+.center{
+    width: 100%;
+}
+
+.center > * {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .center{
     width: 100%;
