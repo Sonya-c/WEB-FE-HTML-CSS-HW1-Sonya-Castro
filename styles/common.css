@@ -1,11 +1,18 @@
 @import url('/styles/constants.css');
 
+* {
+    box-sizing: border-box;
+}
 
 /* Body */
 body {
     background-color: var(--gray-100);
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--gray-900);
 }
 
 body > * {
