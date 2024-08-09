@@ -4,6 +4,9 @@ main {
     margin-bottom: 50px
 }
 
+main section {
+    margin-bottom: 30px;
+}
 main section .section-header {
     margin-bottom: 10px;
 }
