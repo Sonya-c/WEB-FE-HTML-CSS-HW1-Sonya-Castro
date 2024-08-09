@@ -16,15 +16,15 @@
     --gray-900: #111827;
 
     /* Rose */
-    --gray-rose-50: #FFF1F4;
-    --gray-rose-100: #FFE4EA;
-    --gray-rose-200: #FECDD8;
-    --gray-rose-300: #FDA4B8;
-    --gray-rose-400: #FB718F;
-    --gray-rose-500: #F43F67;
-    --gray-rose-600: #E11D48;
-    --gray-rose-700: #BE1238;
-    --gray-rose-800: #9F1231;
-    --gray-rose-900: #88132D;
-    --gray-rose-950: #4C0515;
+    --rose-50: #FFF1F4;
+    --rose-100: #FFE4EA;
+    --rose-200: #FECDD8;
+    --rose-300: #FDA4B8;
+    --rose-400: #FB718F;
+    --rose-500: #F43F67;
+    --rose-600: #E11D48;
+    --rose-700: #BE1238;
+    --rose-800: #9F1231;
+    --rose-900: #88132D;
+    --rose-950: #4C0515;
 }

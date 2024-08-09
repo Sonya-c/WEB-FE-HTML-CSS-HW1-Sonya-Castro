@@ -1,3 +1,4 @@
+@import url('/styles/constants.css');
 
 main {
     margin-top: 50px;
@@ -19,5 +20,14 @@ main section .section-header h2 {
     display: inline-block;
     width: fit-content;
     margin: 0;
-    color: #e11d48;
+    color: var(--rose-600);
+}
+
+.education-list .course-name {
+    font-weight: bold;
+}
+
+.education-list .date, .institution-name {
+    margin: 0;
+    color: var(--gray-700);
 }
