@@ -50,7 +50,7 @@ main section .section-header h2 {
 }
 
 .education-list .institution-name::before {
-    content: "- ";
+    content: " - ";
 }
 
 .skill-list .skill-description::before {
