@@ -70,3 +70,29 @@ main section .section-header h2 {
 a:hover {
     color: var(--rose-600);
 }
+
+.book-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+}
+
+.book-list a {
+    font-weight: normal;
+}
+
+.book-list .book-title {
+    font-weight: bold;
+}
+
+.book-list .book-author {
+    font-style: italic;
+}
+
+.book-list .book-author::before {
+    content: " - ";
+}
