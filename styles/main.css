@@ -23,16 +23,16 @@ main section .section-header h2 {
     color: var(--rose-600);
 }
 
-.education-list li {
+.education-list li, .skill-list li {
     padding-left:1rem;
 }
 
-.education-list div.cols-2 {
+.education-list div.cols-2, .skill-list div.cols-2 {
     display: inline-block;
     vertical-align: middle;
 }
 
-.education-list .course-name {
+.education-list .course-name, .skill-list .skill-name {
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ main section .section-header h2 {
     color: var(--gray-700);
 }
 
-.education-list .date {
+.education-list .date, .skill-list .skill-level {
     text-align: right;
 }
 
@@ -51,4 +51,8 @@ main section .section-header h2 {
 
 .education-list .institution-name::before {
     content: "- ";
+}
+
+.skill-list .skill-description::before {
+    content: ": ";
 }
