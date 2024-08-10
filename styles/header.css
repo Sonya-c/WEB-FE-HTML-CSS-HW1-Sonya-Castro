@@ -34,7 +34,11 @@ header .info {
 header .info img {
     width: 100%;
     max-width: 150px;
+    min-width: 150px;
     border-radius: 50%;
     margin: auto;
 }
 
+header .cols-2 > * {
+    min-width: fit-content;
+}

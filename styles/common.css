@@ -34,6 +34,9 @@ a:hover {
 }
 
 /* Blockquote */
+blockquote {
+    margin: 0;
+}
 blockquote q {
     font-style: italic;
 }
