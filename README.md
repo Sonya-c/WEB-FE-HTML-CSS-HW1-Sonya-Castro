@@ -2,9 +2,7 @@
 
 ## Description
 
-```python
-# TODO: Write description
-```
+This project is a personal CV landing page showcasing my professional profile through HTML and CSS. It features a header with my photo and details, an "About" section summarizing my professional strengths, an "Education" section listing my current career and additional courses, a "Skills" section highlighting key technologies, an "Experience" section with three notable projects, and a "Reading Likes" section with favorite books and their links.
 
 ## Homework
 
