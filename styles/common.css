@@ -79,6 +79,7 @@ blockquote cite::before {
 .cols-2 > * {
     display: inline-block;
     max-width: 50%;
+    width: 49%;
     height: 100%;
 }
 

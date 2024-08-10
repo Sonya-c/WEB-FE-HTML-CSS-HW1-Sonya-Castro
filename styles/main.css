@@ -23,6 +23,15 @@ main section .section-header h2 {
     color: var(--rose-600);
 }
 
+.education-list li {
+    padding-left:1rem;
+}
+
+.education-list div.cols-2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .education-list .course-name {
     font-weight: bold;
 }
@@ -30,4 +39,16 @@ main section .section-header h2 {
 .education-list .date, .institution-name {
     margin: 0;
     color: var(--gray-700);
+}
+
+.education-list .date {
+    text-align: right;
+}
+
+.education-list .institution-name {
+    font-style: italic;
+}
+
+.education-list .institution-name::before {
+    content: "- ";
 }
