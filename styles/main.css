@@ -56,3 +56,17 @@ main section .section-header h2 {
 .skill-list .skill-description::before {
     content: ": ";
 }
+
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience .experience-title {
+    font-weight: bold;
+    color: var(--rose-900);
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: var(--rose-600);
+}
